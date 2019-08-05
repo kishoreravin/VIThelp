@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">VIT help</string>
+    <string name="Suggestion">Suggestion</string>
+    <string name="issue">Issues</string>
+    <string name="selected_block">Selected Block</string>
+    <string name="Describe">Describe the issues you have encountered</string>
+    <string name="add_image">Add Images</string>
+    <string name="academic_blocks">Academic Blocks</string>
+    <string name="hostel_blocks">Hostel Bocks</string>
+    <string name="mess">Mess Caters</string>
+    <string name="non_academic">Non Academic Blocks</string>
+    <string name="send">SEND</string>
+    <string name="select">Select Problem</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="subject">Subject</string>
+    <string name="desp">Description</string>
+    <string name="user">User Login</string>
+    <string name="us_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+    <string-array name="problem_spinner">
+        <item>Cleaning</item>
+        <item>Electrical</item>
+        <item>Air Conditioner</item>
+        <item>Water Problems</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="@string/date"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="@string/date"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="@string/time"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.4"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="@string/time"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="Type"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Problem"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@+id/problem"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.3"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="To"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Type"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@+id/btype"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.3"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="CC"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/block"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="Block"
+                android:textColor="@android:color/white" />
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/desp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:maxLines="4"
+                android:text="@string/desp"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/set_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Progress"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
