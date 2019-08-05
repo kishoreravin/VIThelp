@@ -6,7 +6,7 @@ The app is has two logins
  -> Student's Login
  -> Authority's Login
  
-The Complaints are save in a JSON file database in the *Node.js* server
+The Complaints are save in a JSON file database in the *Node.js* server.
 The photos associated with the complaints are saved in the *FireBase* database
 
 The Students can register, view, delete a complaint and they can also view the status of the complaint. They can also upload photos regarding 
